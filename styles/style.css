@@ -73,6 +73,11 @@ ol {
   align-self: flex-end;
 }
 
+.button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .result__video {
   max-width: 711px;
   width: 100%;
@@ -107,7 +112,7 @@ ol {
 .content {
   padding: 133px 30px;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   align-items: flex-end;
 }
 
@@ -127,9 +132,6 @@ ol {
   overflow-x: hidden;
 }
 
-.content__list::-webkit-scrollbar {
-  display: none;
-}
 
 .content__video-card {
   display: grid;
@@ -138,13 +140,15 @@ ol {
 
 .content__video-card-title {
   color: #FFF;
-
   font-family: Oswald;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 170px;
 }
 
 .content__video-card-description {
@@ -172,7 +176,6 @@ ol {
   display: grid;
   grid-template-columns: 225px 212px 194px;
   gap: 40px;
-  padding-bottom: 5px;
 }
 
 .content__list-item {
