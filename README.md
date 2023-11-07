@@ -10,4 +10,4 @@
 * ссылки на "#" 
 * шрифты Raleway и картинка для страниц. 
 
-https://github.com/YIOXIO/posmotr
+https://github.com/YIOXIO/posmotri_v_okno
